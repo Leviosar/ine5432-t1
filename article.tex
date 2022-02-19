@@ -1,0 +1,85 @@
+\documentclass[12pt]{article}
+
+\usepackage[portuguese]{babel}
+
+\usepackage{graphicx}
+\usepackage[section]{placeins}
+\usepackage{float}
+\usepackage{url}
+
+\graphicspath{ {figures} }
+
+\author{Seu nomezinho}
+\title{Template para artigos LaTeX}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+Sunt in laboris excepteur deserunt. Incididunt non aliqua pariatur fugiat veniam ad ullamco magna commodo elit. Ea non ea deserunt aliqua in dolore duis dolor ea ut in do.
+
+\end{abstract}
+
+\section{Section}
+
+\subsection{Subsection}
+
+Elit anim exercitation culpa eiusmod reprehenderit dolore Lorem. Aliquip fugiat mollit enim quis laboris id adipisicing nisi. Nulla ut laboris elit laboris aliqua eiusmod enim consequat fugiat velit. Ullamco et sint labore voluptate velit dolore. Cupidatat id velit dolore id eu culpa.
+
+Eu ea eu magna sint magna consequat sunt in est tempor nulla consequat. Eiusmod laborum velit exercitation eu deserunt. Nostrud commodo commodo enim sit ut culpa labore in cupidatat laborum sint pariatur consectetur. In culpa commodo cillum cupidatat quis eiusmod quis aliqua eu non esse.
+
+\subsection{Section}
+
+Reprehenderit enim minim mollit elit sit cillum aute pariatur aute deserunt qui culpa do. Exercitation proident commodo proident dolore aliqua laboris tempor eiusmod aliquip minim irure culpa consequat. Reprehenderit magna eiusmod duis est. Veniam esse mollit ex sunt dolore anim minim fugiat reprehenderit voluptate fugiat reprehenderit. Mollit voluptate enim sit enim commodo consequat cillum.
+
+Mollit sunt consectetur sint laborum sint amet occaecat eiusmod et irure. Lorem labore velit in aliqua aliquip do nostrud pariatur occaecat exercitation. Id amet qui occaecat ut ea sint incididunt Lorem voluptate duis ea enim officia. Dolor irure amet dolor enim cupidatat et.
+
+\subsection{Bullet list}
+
+\begin{itemize}
+    \item Id nisi incididunt laborum aliqua anim elit sunt.
+    \item Occaecat laboris incididunt excepteur nostrud amet cupidatat minim incididunt labore qui commodo deserunt incididunt quis.
+    \item Reprehenderit pariatur do enim tempor.
+\end{itemize}
+
+\section{Table}
+
+\begin{center}
+    \begin{tabular}{ | c | c | }
+    \hline
+    Keywords & Resultados \\ 
+    \hline
+    IoT & 1,120,000 \\  
+    \hline
+    Machine Learning & 4,670,000 \\
+    \hline
+    IoT Machine Learning & 176,000 \\
+    \hline
+    Machine learning applications on IoT & 161,000 \\
+    \hline
+    Machine learning on sensors & 1,380,000 \\
+    \hline
+    \end{tabular}
+\end{center}
+
+
+\subsection{Figure}
+
+\cite{analisis} Dolore aute ad nulla elit sunt est sint ad dolor tempor.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{figure_1.png}
+    \caption{Figure example}
+\end{figure}
+
+\nocite{*}
+\medskip
+
+\bibliographystyle{ieeetr}
+\bibliography{biblio}
+
+\end{document}
